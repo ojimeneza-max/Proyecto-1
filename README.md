@@ -4,14 +4,13 @@ Bienvenido al repositorio de nuestro sitio web profesional. Este proyecto es una
 
 ## 📸 Capturas de Pantalla
 
-### Página de Inicio
-![Captura de pantalla de la página de inicio](/screenshots/homepage.png)
+### Inicio - Vista Principal
+![Vista principal del sitio web mostrando el encabezado y el mensaje de bienvenida](./img/Capturas/cap1.png)
+*Figura 1: Página principal con el encabezado, logo y menú de navegación.*
 
-### Características
-![Captura de pantalla de características](/screenshots/features.png)
-
-### Formulario de Contacto
-![Captura de pantalla del formulario de contacto](/screenshots/contact.png)
+### Características - Sección de Servicios
+![Sección de características mostrando los servicios ofrecidos](./img/Capturas/cap2.png)
+*Figura 2: Sección que destaca las principales características y servicios del sitio web.*
 
 ## 🛠️ Características
 
@@ -50,13 +49,30 @@ proyecto/
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://via.placeholder.com/100" width="100px;" alt="Miembro del equipo"/><br />
-        <sub><b>Tu Nombre</b></sub>
-      </a><br />
-      <a href="#" title="GitHub">👨‍💻</a>
-      <a href="#" title="LinkedIn">💼</a>
+        <img src="https://ui-avatars.com/api/?name=Caba+Jimenez&background=random" width="100px;" alt="Caba Jimenez"/><br />
+        <sub><b>Caba Jimenez Yuri Maritza</b></sub>
+      </a>
     </td>
-    <!-- Añade más miembros según sea necesario -->
+    <td align="center">
+      <a href="#">
+        <img src="https://ui-avatars.com/api/?name=Eras+Santos&background=random" width="100px;" alt="Eras Santos"/><br />
+        <sub><b>Eras Santos Elvis Mateo</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://ui-avatars.com/api/?name=Jimenez+Ayala&background=random" width="100px;" alt="Jimenez Ayala"/><br />
+        <sub><b>Jimenez Ayala Oscar Orlando</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://ui-avatars.com/api/?name=Montaguano+Quillupangui&background=random" width="100px;" alt="Montaguano Quillupangui"/><br />
+        <sub><b>Montaguano Quillupangui Erika Tatiana</b></sub>
+      </a>
+    </td>
   </tr>
 </table>
 
@@ -72,5 +88,5 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 ---
 
 <div align="center">
-  Hecho con ❤️ por [Tu Nombre]
+  Hecho con ❤️ por Caba, Eras, Jiménez y Montaguano
 </div>
