@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page profesional creada con HTML5 semántico">
+    <title>Inicio - Mi Sitio Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <img src="img/logo-placeholder.png" alt="Logo de la empresa" width="150">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li class="nav-item"><a href="#caracteristicas" class="nav-link">Características</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Bienvenido a Nuestra Empresa</h1>
+                    <p class="hero-text">Transformamos ideas en soluciones digitales innovadoras. Descubre cómo podemos ayudarte a alcanzar tus objetivos.</p>
+                    <a href="#contacto" class="cta-button">Contáctanos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="caracteristicas" class="features">
+            <div class="container">
+                <h2>Nuestras Características</h2>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <i class="fas fa-rocket feature-icon"></i>
+                        <h3>Rendimiento</h3>
+                        <p>Solución de alto rendimiento que se adapta a tus necesidades de negocio.</p>
+                    </article>
+                    <article class="feature-card">
+                        <i class="fas fa-shield-alt feature-icon"></i>
+                        <h3>Seguridad</h3>
+                        <p>Protección de datos y privacidad garantizada para tu tranquilidad.</p>
+                    </article>
+                    <article class="feature-card">
+                        <i class="fas fa-mobile-alt feature-icon"></i>
+                        <h3>Diseño Responsivo</h3>
+                        <p>Diseño que se adapta perfectamente a cualquier dispositivo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <p>¿Listo para comenzar tu próximo proyecto? ¡Estamos aquí para ayudarte!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/img/logo-placeholder.png" alt="Logo de la empresa" width="120">
+                    <p>Transformando ideas en realidad digital.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2025</span> Mi Sitio Web. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Actualizar el año del copyright automáticamente
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
